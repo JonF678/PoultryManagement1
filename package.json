@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/memoizee": "^0.4.12",
+    "concurrently": "^9.2.0",
+    "memoizee": "^0.4.17",
+    "openid-client": "^6.6.2"
+  },
+  "devDependencies": {
+    "electron": "^37.2.5",
+    "electron-builder": "^26.0.12",
+    "wait-on": "^7.2.0"
+  }
+}
